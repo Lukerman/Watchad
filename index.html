@@ -1,74 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="monetag" content="b45fc8e90da8865d336cf2fd64ae8514">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telegram Mini App</title>
-    
-    <!-- Monetag Ad Script -->
-    <script src="//doodiwom.com/vignette.min.js" data-zone="9139448" data-sdk="show_9139448"></script>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f5f5f5;
-            padding: 20px;
-        }
-
-        .container {
-            margin-top: 50px;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        p {
-            font-size: 18px;
-            margin-bottom: 20px;
-        }
-
-        button {
-            padding: 12px 20px;
-            font-size: 18px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Cryptocurrency</title>
 </head>
 <body>
 
-    <div class="container">
-        <h1>Earn Rewards by Watching Ads</h1>
-        <p>Your Balance: <span id="balance">0</span> Coins</p>
-        <button id="watchAdBtn">Watch Ad & Earn</button>
-    </div>
+  <h1>What is Cryptocurrency?</h1>
+  <p>
+    Cryptocurrency is a digital or virtual form of currency that uses cryptography for security. 
+    Unlike traditional currencies issued by governments (fiat money), cryptocurrencies operate on decentralized networks based on blockchain technology. 
+    Popular cryptocurrencies include Bitcoin (BTC), Ethereum (ETH), and Solana (SOL).
+  </p>
 
-    <script>
-        let balance = 0;
-        document.getElementById("watchAdBtn").addEventListener("click", () => {
-            show_9139448().then(() => {
-                balance += 10; // Reward user
-                document.getElementById("balance").textContent = balance;
-                alert("You earned 10 coins!");
-            }).catch(() => {
-                alert("Ad failed to load. Try again later.");
-            });
-        });
-    </script>
+  <!-- Ad 1 -->
+  <div style="margin: 30px 0;">
+    <iframe src="//ads.coinserom.com/publisher?adsunit=35333030&size=728x90"
+            style="width:728px;height:90px;border:0px;padding:0;background-color: transparent;overflow: auto;">
+    </iframe>
+  </div>
+
+  <h2>How Does Cryptocurrency Work?</h2>
+  <p>
+    Cryptocurrencies work on a decentralized network of computers, called nodes, which verify transactions and add them to a public ledger known as the blockchain.
+    Transactions are secure, irreversible, and transparent.
+  </p>
+
+  <!-- Ad 2 -->
+  <div style="margin: 30px 0;">
+    <iframe src="//ads.coinserom.com/publisher?adsunit=35333030&size=728x90"
+            style="width:728px;height:90px;border:0px;padding:0;background-color: transparent;overflow: auto;">
+    </iframe>
+  </div>
+
+  <h2>Why is Cryptocurrency Important?</h2>
+  <p>
+    Cryptocurrency offers new financial opportunities and empowers people with faster, cheaper, and more transparent transactions.
+    It also allows individuals to have full control over their money, especially in regions with unstable financial systems.
+  </p>
+
+  <p>
+    Always do your own research before investing in any cryptocurrency, as the market is volatile and unpredictable.
+  </p>
+
+  <!-- Ad 3 -->
+  <div style="margin: 30px 0;">
+    <iframe src="//ads.coinserom.com/publisher?adsunit=35333030&size=728x90"
+            style="width:728px;height:90px;border:0px;padding:0;background-color: transparent;overflow: auto;">
+    </iframe>
+  </div>
 
 </body>
 </html>
